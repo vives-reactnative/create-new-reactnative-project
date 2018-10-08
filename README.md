@@ -5,9 +5,9 @@
 Gebruik react-native cli om een nieuw project te initialiseren. Geef een stable version mee, in dit geval: 0.57.0
 
 ```
-react-native init <ProjectName> --version react-native@0.57.0
+react-native init <projectname> --version react-native@0.57.0
 
-cd ProjectName
+cd <projectname>
 
 npm add --save-dev @babel/runtime
 npm install
@@ -18,7 +18,7 @@ npm install
 npm install --save-dev eslint-config-rallycoding
 ```
 
-Add file `.eslintrc`
+Bestand `.eslintrc` toevoegen in de root van je net gecreërde ReactNative applicatie
 ```json
 .eslintrc
 {
