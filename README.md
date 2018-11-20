@@ -13,6 +13,19 @@ npm add --save-dev @babel/runtime
 npm install
 ```
 
+## Add React Navigation 2.X.X (if needed)
+
+### remove version 3.X.X of React Navigation
+Wanneer je een verkeerde versie van React Navigation aan je project zou hebben toegevoegd (bv 3.0.0) kan je deze met onderstaand commando verwijderen. (deze wordt dan ook verwijderd uit de package.json)
+```
+npm uninstall react-navigation
+```
+
+## add version 2.X.X of React navigation
+```
+npm install --save react-navigation@"<3.0.0"
+```
+
 ## ESLint config
 ```
 npm install --save-dev eslint-config-rallycoding
