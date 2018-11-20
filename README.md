@@ -33,9 +33,11 @@ npm install --save-dev eslint-config-rallycoding
 
 Bestand `.eslintrc` toevoegen in de root van je net gecreërde ReactNative applicatie
 ```json
-.eslintrc
 {
-	"extends": "rallycoding"
+  "extends": "rallycoding",
+  "rules": {
+    "import/no-extraneous-dependencies": 0
+  }
 }
 ```
 ## Run Project
