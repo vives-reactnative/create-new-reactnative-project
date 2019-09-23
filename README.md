@@ -1,16 +1,14 @@
 # Create New ReactNative Project
 
-## react-native cli
+## Expo cli
 
-Gebruik react-native cli om een nieuw project te initialiseren. Geef een stable version mee, in dit geval: 0.57.0
+Gebruik de Expo cli om een nieuw project te initialiseren. 
 
 ```
-react-native init <projectname> --version react-native@0.57.0
-
+expo init <projectname>
 cd <projectname>
-
-npm add --save-dev @babel/runtime
 npm install
+npm start
 ```
 
 ## ESLint config
@@ -29,25 +27,15 @@ Bestand `.eslintrc` toevoegen in de root van je net gecreërde ReactNative appli
 ```
 ## Run Project
 
-Voor iOS
 ```
-react-native run-ios
-```
-
-Voor Android
-```
-react-native run-android
+npm start
 ```
 
-## Add React Navigation 2.X.X (if needed)
+### Expo client app
 
-### remove version 3.X.X of React Navigation
-Wanneer je een verkeerde versie van React Navigation aan je project zou hebben toegevoegd (bv 3.0.0) kan je deze met onderstaand commando verwijderen. (deze wordt dan ook verwijderd uit de package.json)
-```
-npm uninstall react-navigation
-```
+Installeer de Expo client app op je iOS of Android mobiele toestel en connecteer op hetzelfde wireless netwerk als je computer.
 
-## add version 2.X.X of React navigation
-```
-npm install --save react-navigation@"<3.0.0"
-```
+Log in met je Expo account zowel op je laptop als op de Expo client app.
+
+Open je nieuwe React Native applicatie in de Expo client app.
+
