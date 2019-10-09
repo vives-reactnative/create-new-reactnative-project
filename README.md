@@ -7,7 +7,6 @@ Gebruik de Expo cli om een nieuw project te initialiseren.
 ```
 expo init <projectname>
 cd <projectname>
-npm install
 ```
 
 ## ESLint config
