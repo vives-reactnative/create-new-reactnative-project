@@ -37,3 +37,10 @@ Log in met je Expo account zowel op je laptop als op de Expo client app.
 
 Open je nieuwe React Native applicatie in de Expo client app.
 
+## Add React Navigation 
+
+We werken steeds met React Navigation versie 4.x
+
+```
+expo install react-navigation react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens
+```
