@@ -44,3 +44,8 @@ We werken steeds met React Navigation versie 4.x
 ```
 expo install react-navigation react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens
 ```
+## Add Axios
+
+```
+npm i --save axios
+```
