@@ -41,9 +41,21 @@ Open je nieuwe React Native applicatie in de Expo client app.
 
 We werken steeds met React Navigation versie 4.x
 
+### Basis react-navigation libraries (required)
 ```
-expo install react-navigation react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens
+expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
 ```
+
+### StackNavigator (optioneel: indien je project stacknavigatie bevat)
+```
+expo install react-navigation-stack @react-native-community/masked-view
+```
+
+### TabNavigator (optioneel: indien je project tabnavigatie bevat)
+```
+expo install react-navigation-tabs
+```
+
 ## Add Axios
 
 ```
