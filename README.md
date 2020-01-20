@@ -43,7 +43,7 @@ We werken steeds met React Navigation versie 4.x
 
 ### Basis react-navigation libraries (required)
 ```
-expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
+expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
 ```
 
 ### StackNavigator (optioneel: indien je project stacknavigatie bevat)
