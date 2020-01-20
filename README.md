@@ -43,21 +43,21 @@ We werken steeds met React Navigation versie 4.x
 
 ### Basis react-navigation libraries (required)
 ```
-expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+expo install react-navigation@"<5.0.0" react-native-gesture-handler@"<2.0.0" react-native-reanimated@"<2.0.0" react-native-screens@"<2.0.0" react-native-safe-area-context@0.3.6
 ```
 
 ### StackNavigator (optioneel: indien je project stacknavigatie bevat)
 ```
-expo install react-navigation-stack @react-native-community/masked-view
+expo install react-navigation-stack@"<3.0.0" @react-native-community/masked-view@0.1.6
 ```
 
 ### TabNavigator (optioneel: indien je project tabnavigatie bevat)
 ```
-expo install react-navigation-tabs
+expo install react-navigation-tabs@"<3.0.0"
 ```
 
 ## Add Axios
 
 ```
-npm i --save axios
+npm i --save axios@"<1.0.0"
 ```
